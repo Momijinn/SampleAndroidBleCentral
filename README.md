@@ -1,0 +1,2 @@
+# SampleAndroidBleCentral
+AndroidでBLE通信におけるCentralの役割をするアプリ
