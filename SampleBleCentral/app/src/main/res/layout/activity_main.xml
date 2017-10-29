@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.autumn_color.kanametakano.sampleblecentral.MainActivity">
+
+    <EditText
+        android:id="@+id/RecvEditText"
+        android:layout_width="368dp"
+        android:layout_height="400dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:ignore="MissingConstraints" />
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/RecvEditText"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/ConectButton"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="CONNECT"/>
+
+        <Button
+            android:id="@+id/DisConectButton"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="DISCONNECT"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
