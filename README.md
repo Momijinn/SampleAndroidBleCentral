@@ -6,7 +6,7 @@ AndroidでBLE通信におけるCentralの役割をするサンプルアプリ
 Android端末をBLE通信におけてCentralとして動作をするサンプルアプリ
 
 ## Demo
-![screenshot](https://github.com/Momijinn/SampleAndroidBleCentral/img/screen.png)
+![screenshot](https://github.com/Momijinn/SampleAndroidBleCentral/blob/master/img/screen.png)
 
 ## Requirement
 * Android5.0以上の端末
